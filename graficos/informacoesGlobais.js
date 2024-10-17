@@ -9,7 +9,7 @@ async function visualizarInformacoesGlobais() {
     ${dados.total_passoas_conectas} estão conectadas em alguma rede social e passam em média ${dados.tempo_medio} horas conectadas.`
 
     const container = document.getElementById('graficos-container')
-    container.appendChild(paragrafo)1
+    container.appendChild(paragrafo)
 }
 
 visualizarInformacoesGlobais()
